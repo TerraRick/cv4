@@ -1,0 +1,186 @@
+body {
+  background-color: #FCF8E8;
+  /***Don't forget to set margin to 0 ********/
+  margin: 0;
+  text-align: center;
+}
+
+p {
+
+  font-weight: normal;
+  font-family: 'Source Code Pro', monospace;
+  padding-bottom: 40px;
+
+}
+
+h1 {
+  color: #5800FF;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 5.625rem;
+  font-weight: bold;
+  line-height: 2;
+}
+
+h2 {
+  color: #5800FF;
+  font-weight: bold;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 2.5rem;
+  padding-top:15px;
+  padding-bottom: 25px;
+}
+
+h3 {
+  color: #5800FF;
+  font-weight: bold;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.homepage-header-note {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #5800FF;
+}
+
+hr {
+  border: none;
+  border-top: 7px dotted;
+  color: #5800FF;
+  background-color: #FCF8E8;
+  height: 10px;
+  opacity: 0.25;
+  padding: 40px;
+  width:5%
+}
+.pro {
+  color: #ECB390;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.top-container {
+  background-color: #FCF8E8;
+  border-width: 5px;
+  border-style: none;
+  margin: 40px;
+  padding: 20px;
+  padding-top: 200px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: white;
+}
+
+.cam1 {
+  border-radius: 10px;
+  padding-top: 35px;
+  width: 15%;
+  height: 15%;
+}
+
+.skill-row {
+  /***** not seeing angelas bug, but the margin fixes the alignment (lesson 58 2:56 mins)*****/
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.bottom-container {
+text-align: center;
+padding-top: 50px;
+}
+
+.contact-me {
+  padding-bottom: 50px;
+}
+
+.footer-link {
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  color: #5800FF;
+  font-weight:bold;
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right:25px;
+}
+.footer-link:link {
+  color:#5800FF;
+}
+
+.footer-link:visited{
+  color:#5800FF;
+}
+
+.footer-link:hover {
+  color: #ECB390;
+  text-decoration: none;
+}
+
+.footer-link:active {
+  color:#5800FF;
+}
+
+
+.credit {
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  padding: 50px 25px 50px 25px;
+
+}
+
+
+.blockchain-img {
+  height: 20%;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+.btc-img {
+  height: 15%;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+
+.coding-img {
+  float: left;
+  height: 10%;
+  margin-right:30px;
+  width: 10%;
+
+}
+
+.spotify-img {
+  float: right;
+  height: 10%;
+  margin-left:30px;
+  width: 10%;
+
+}
+
+/****Buttons******/
+
+.btn {
+
+  -webkit-border-radius: 9;
+  -moz-border-radius: 8;
+  border-radius: 9px;
+  font-family: 'Source Code Pro', monospace;
+  color: #ffffff;
+  font-size: 20px;
+  background: #5800FF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ECB390;
+  text-decoration: none;
+}
+}
